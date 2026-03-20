@@ -1,0 +1,268 @@
+export const BTS_MEMBERS = [
+  { id: 'rm', name: 'RM', role: 'Líder, rap', emoji: '🌙', note: 'Calma y palabras bonitas.' },
+  { id: 'jin', name: 'Jin', role: 'Vocal, visual', emoji: '🌸', note: 'World wide handsome con humor suave.' },
+  { id: 'suga', name: 'Suga', role: 'Rap, prod.', emoji: '🐱', note: 'Capas tiernas bajo el flow.' },
+  { id: 'jhope', name: 'j-hope', role: 'Rap, dance', emoji: '☀️', note: 'Energía que abraza.' },
+  { id: 'jimin', name: 'Jimin', role: 'Vocal, dance', emoji: '🦋', note: 'Dulzura en el escenario.' },
+  { id: 'v', name: 'V', role: 'Vocal', emoji: '🐯', note: 'Voz profunda, mirada de película.' },
+  { id: 'jk', name: 'Jung Kook', role: 'Vocal, maknae', emoji: '🐰', note: 'Talento que no para de crecer.' },
+]
+
+export const ATEEZ_MEMBERS = [
+  { id: 'hj', name: 'Hongjoong', role: 'Líder, rap', emoji: '🔥', note: 'Corazón pirata creativo.' },
+  { id: 'sh', name: 'Seonghwa', role: 'Vocal', emoji: '⭐', note: 'Calma que envuelve.' },
+  { id: 'yh', name: 'Yunho', role: 'Vocal, dance', emoji: '🌊', note: 'Sol en movimiento.' },
+  { id: 'ys', name: 'Yeosang', role: 'Vocal, visual', emoji: '🦋', note: 'Mirada suave, fuerza en el baile.' },
+  { id: 'sn', name: 'San', role: 'Vocal', emoji: '🖤', note: 'Intensidad escénica.' },
+  { id: 'mg', name: 'Mingi', role: 'Rap, dance', emoji: '⚡', note: 'Flow y corazón grande.' },
+  { id: 'wy', name: 'Wooyoung', role: 'Vocal, dance', emoji: '🎀', note: 'Juego y cariño.' },
+  { id: 'jn', name: 'Jongho', role: 'Vocal', emoji: '🎤', note: 'Voz que te atraviesa.' },
+]
+
+/**
+ * IDs de YouTube: MV oficiales en HYBE LABELS / KQ ENTERTAINMENT.
+ * (Los anteriores mezclaban typos p. ej. Butter WM8bLbYt4oQ vs WMweEpGlu_U, u IDs que ya no existen.)
+ */
+export const MOOD_VIBES = [
+  {
+    id: 'mood-mel',
+    label: 'Melancólica',
+    title: 'BTS — Spring Day',
+    embedId: 'xEeFrLSkMm8',
+  },
+  {
+    id: 'mood-ene',
+    label: 'Energética',
+    title: 'ATEEZ — Adrenaline',
+    embedId: 'vqkfEUqjl6Y',
+  },
+  {
+    id: 'mood-rom',
+    label: 'Romanticona',
+    title: 'BTS — Butter',
+    embedId: 'WMweEpGlu_U',
+  },
+  {
+    id: 'mood-tran',
+    label: 'Tranquila',
+    title: 'BTS — Yet To Come',
+    embedId: 'kXpOEzNZ8hQ',
+  },
+]
+
+export const LATEST_BTS_VIDEOS = [
+  { id: 'bts-ytc', chipLabel: 'Yet To Come', year: '2022', title: 'BTS — Yet To Come', embedId: 'kXpOEzNZ8hQ' },
+  { id: 'bts-dyn', chipLabel: 'Dynamite', year: '2020', title: 'BTS — Dynamite', embedId: 'gdZLi9oWNZg' },
+  { id: 'bts-btr', chipLabel: 'Butter', year: '2021', title: 'BTS — Butter', embedId: 'WMweEpGlu_U' },
+  { id: 'bts-on', chipLabel: 'ON', year: '2020', title: 'BTS — ON (Kinetic Manifesto)', embedId: 'gwMa6gpoE9I' },
+  { id: 'bts-sd', chipLabel: 'Spring Day', year: '2017', title: 'BTS — Spring Day', embedId: 'xEeFrLSkMm8' },
+]
+
+export const LATEST_ATEEZ_VIDEOS = [
+  { id: 'at-ad', chipLabel: 'Adrenaline', year: '2025', title: 'ATEEZ — Adrenaline', embedId: 'vqkfEUqjl6Y' },
+  { id: 'at-gu', chipLabel: 'Guerrilla', year: '2022', title: 'ATEEZ — Guerrilla', embedId: '2HcVZm_4qAI' },
+  { id: 'at-bo', chipLabel: 'Bouncy', year: '2023', title: 'ATEEZ — BOUNCY', embedId: 'U0G5OA6ZH5w' },
+  { id: 'at-iot', chipLabel: 'Ice On My Teeth', year: '2024', title: 'ATEEZ — Ice On My Teeth', embedId: '5OflOlcHLb8' },
+]
+
+export const KDRAMA_BY_MOOD = {
+  cry: {
+    label: 'Pañuelo listo 😭',
+    dramas: [
+      { title: 'Twenty-Five Twenty-One', year: 2022, tag: 'NOSTalgia', emoji: '🏃', desc: 'Años 90, sueños y un amor que duele bonito.' },
+      { title: 'Our Beloved Summer', year: 2021, tag: 'Romance suave', emoji: '📷', desc: 'Exparejas y un documental que las vuelve a juntar.' },
+      { title: 'Move to Heaven', year: 2021, tag: 'Humanidad', emoji: '📦', desc: 'Cada caja cuenta una vida; lágrimas garantizadas.' },
+      { title: 'Hi Bye, Mama!', year: 2020, tag: 'Fantasía', emoji: '👻', desc: 'Segundas oportunidades y amor maternal.' },
+      { title: 'My Mister', year: 2018, tag: 'Vida adulta', emoji: '🌧️', desc: 'Conexión silenciosa en medio del cansancio.' },
+      { title: 'It’s Okay to Not Be Okay', year: 2020, tag: 'Sanación', emoji: '🌙', desc: 'Heridas, cuentos y crecer juntos.' },
+      { title: 'Youth of May', year: 2021, tag: 'Histórico', emoji: '🌸', desc: 'Primavera y tragedia entrelazadas.' },
+      { title: 'Uncontrollably Fond', year: 2016, tag: 'Melodrama', emoji: '💔', desc: 'Segundas oportunidades con el corazón en la mano.' },
+    ],
+  },
+  romance: {
+    label: 'Azúcar en la mirada 🥰',
+    dramas: [
+      { title: 'Crash Landing on You', year: 2019, tag: 'Romcom épica', emoji: '🪂', desc: 'Paracaidista en Corea del Norte y química infinita.' },
+      { title: 'Business Proposal', year: 2022, tag: 'Cita falsa', emoji: '💼', desc: 'Identidad equivocada y risas por doquier.' },
+      { title: 'Hometown Cha-Cha-Cha', year: 2021, tag: 'Pueblo costero', emoji: '🌊', desc: 'Dentista en un pueblo lleno de corazón.' },
+      { title: 'What’s Wrong with Secretary Kim', year: 2018, tag: 'Oficina', emoji: '📎', desc: 'Jefe narcissista descubre que la necesita.' },
+      { title: 'Her Private Life', year: 2019, tag: 'Fangirl', emoji: '🎨', desc: 'Curadora de arte que es fan en secreto.' },
+      { title: 'Touch Your Heart', year: 2019, tag: 'Dulce', emoji: '✨', desc: 'Actriz en prácticas en un bufete.' },
+      { title: 'Weightlifting Fairy Kim Bok-joo', year: 2016, tag: 'Universidad', emoji: '🏋️', desc: 'Deporte, amistad y primer amor.' },
+      { title: 'Strong Girl Bong-soon', year: 2017, tag: 'Superfuerza', emoji: '💪', desc: 'Pequeña gigante y romanticismo cómico.' },
+    ],
+  },
+  action: {
+    label: 'Adrenalina 🔥',
+    dramas: [
+      { title: 'Vincenzo', year: 2021, tag: 'Mafia + justicia', emoji: '⚖️', desc: 'Abogado italiano limpia edificios como solo él sabe.' },
+      { title: 'Squid Game', year: 2021, tag: 'Supervivencia', emoji: '🦑', desc: 'Juegos mortales y crítica social.' },
+      { title: 'My Name', year: 2021, tag: 'Venganza', emoji: '🖤', desc: 'Infiltrada en la mafia buscando respuestas.' },
+      { title: 'Healer', year: 2014, tag: 'Persecuciones', emoji: '🏃', desc: 'Misterio nocturno y química legendaria.' },
+      { title: 'Taxi Driver', year: 2021, tag: 'Justicia callejera', emoji: '🚕', desc: 'Venganza por encargo en un taxi.' },
+      { title: 'Bad and Crazy', year: 2021, tag: 'Dualidad', emoji: '🎭', desc: 'Policía y su otro yo alocado.' },
+      { title: 'The K2', year: 2016, tag: 'Bodyguard', emoji: '🛡️', desc: 'Acción, política y protección.' },
+      { title: 'City Hunter', year: 2011, tag: 'Clásico', emoji: '🎯', desc: 'Justicia en la sombra de Seúl.' },
+    ],
+  },
+  laugh: {
+    label: 'Risas garantizadas 😂',
+    dramas: [
+      { title: 'Welcome to Waikiki', year: 2018, tag: 'Caos', emoji: '🏄', desc: 'Pensión, sueños rotos y humor absurdo.' },
+      { title: 'The Fiery Priest', year: 2019, tag: 'Comedia negra', emoji: '⛪', desc: 'Sacerdote que pega primero y pregunta después.' },
+      { title: 'Chief Kim', year: 2017, tag: 'Oficina', emoji: '📊', desc: 'Contable raro contra la corrupción.' },
+      { title: 'Mr. Queen', year: 2020, tag: 'Cuerpo cambiado', emoji: '👑', desc: 'Chef moderno atrapado en la reina Joseon.' },
+      { title: 'Racket Boys', year: 2021, tag: 'Deporte rural', emoji: '🏸', desc: 'Bádminton, pueblo y calidez.' },
+      { title: 'Prison Playbook', year: 2017, tag: 'Carcel + humor', emoji: '⚾', desc: 'Vida en prisión con risas y lazos.' },
+      { title: 'Reply 1988', year: 2015, tag: 'Barrio', emoji: '🏘️', desc: 'Familias, nostalgia y risas compartidas.' },
+      { title: 'Extraordinary Attorney Woo', year: 2022, tag: 'Abogada única', emoji: '🐋', desc: 'Genio del derecho y el mundo en su manera.' },
+    ],
+  },
+  mystery: {
+    label: 'Nada es lo que parece 🔍',
+    dramas: [
+      { title: 'Stranger', year: 2017, tag: 'Prosecutor + frialdad', emoji: '🌲', desc: 'Fiscal sin emociones y casos sucios.' },
+      { title: 'Mouse', year: 2021, tag: 'Thriller psicológico', emoji: '🧠', desc: 'Preguntas sobre naturaleza y elección.' },
+      { title: 'Flower of Evil', year: 2020, tag: 'Pasado oculto', emoji: '🌹', desc: 'Marido perfecto… ¿o no?' },
+      { title: 'Beyond Evil', year: 2021, tag: 'Pueblo + crimen', emoji: '⛓️', desc: 'Dos detectives frente a secretos viejos.' },
+      { title: 'Signal', year: 2016, tag: 'Radio del tiempo', emoji: '📻', desc: 'Casos fríos conectados en el tiempo.' },
+      { title: 'Tunnel', year: 2017, tag: 'Viaje temporal', emoji: '🚇', desc: 'Detective de los 80 al presente.' },
+      { title: 'Memorist', year: 2020, tag: 'Memoria', emoji: '📖', desc: 'Lee memorias para resolver crímenes.' },
+      { title: 'The Guest', year: 2018, tag: 'Exorcismo', emoji: '👁️', desc: 'Horror sobrenatural y tensión.' },
+    ],
+  },
+}
+
+export const WORD_SEARCH_PER_GAME = 12
+
+export const WORD_SEARCH_POOL = [
+  'ARMY',
+  'ATINY',
+  'BTS',
+  'ATEEZ',
+  'KPOP',
+  'KDRAMA',
+  'IDOL',
+  'BIAS',
+  'STAN',
+  'COMEBACK',
+  'MELODY',
+  'KUROMI',
+  'CINNAMOROLL',
+  'KITTY',
+  'SANRIO',
+  'PURPLE',
+  'BORAHAE',
+  'MIKROKOSMOS',
+  'SPRINGDAY',
+  'BUTTER',
+  'DYNAMITE',
+  'YETTOCOME',
+  'ADRENALINE',
+  'OPPAS',
+  'UNNIE',
+  'OST',
+  'SAGEUK',
+  'NOONA',
+  'DAEBAK',
+  'FIGHTING',
+  'HALLYU',
+  'SEOUL',
+  'BUSAN',
+  'JEJU',
+  'HANBOK',
+  'RAMYUN',
+  'KIMCHI',
+  'MIANHAE',
+  'SARANGHAE',
+  'MOCHI',
+  'CHIMMY',
+  'COOKY',
+  'TATA',
+  'SHOOKY',
+  'RJ',
+  'KOYA',
+  'MANG',
+  'HORROR',
+  'SLASHER',
+  'ZOMBIE',
+  'VAMPIRE',
+  'GHOST',
+  'CREEPY',
+  'JUMPSCARE',
+  'ANIME',
+  'MANGA',
+  'GHIBLI',
+  'KAWAII',
+  'SPARKLE',
+  'LOVE',
+  'HEART',
+  'PURPLEU',
+  'HYBE',
+  'KQENT',
+  'BLINK',
+  'MIDZY',
+  'ONCE',
+  'MOA',
+  'STAY',
+  'CARAT',
+  'EXOL',
+  'NCTZEN',
+  'MELODRAMA',
+  'ROMCOM',
+  'CHICKFLICK',
+  'TEARS',
+  'HUG',
+  'SOFT',
+  'COZY',
+  'MOON',
+  'STARS',
+  'DREAM',
+  'HOPE',
+  'PEACE',
+  'MAGIC',
+  'FAIRY',
+  'PRINCESS',
+  'LUNA',
+  'ROSE',
+  'LILY',
+  'DAISY',
+  'CLOVER',
+  'LUCKY',
+  'SMILE',
+  'HAPPY',
+  'SWEET',
+]
+
+export const ENVELOPE_DEFAULT_MESSAGES = [
+  'Ábrelo cuando necesites un abrazo en forma de texto.',
+  'Ábrelo cuando dudes de lo increíble que eres.',
+  'Ábrelo cuando quieras recordar que alguien piensa en ti con cariño.',
+]
+
+export const YOUTUBE_PLAYLIST_IDS = {
+  bts: 'PLQwaMZCS6vkgyNs5fjGTsJ3KcjPQHhiTQ',
+  ateez: 'PL_JkDhh9kPMS8XBSx8XW85Rsx92I5PTBB',
+}
+
+export const AFFIRMATIONS = [
+  'Mereces descanso sin culpa.',
+  'No tienes que estar bien todo el tiempo.',
+  'Tu esfuerzo cuenta, aunque nadie lo vea.',
+  'Un paso pequeño también es avanzar.',
+  'Eres más fuerte de lo que sientes ahora.',
+  'Pedir ayuda es valentía, no debilidad.',
+  'Hoy puedes elegir ser suave contigo.',
+  'Lo que sientes es válido.',
+  'Brillas incluso en los días grises.',
+  'Hay tiempo para volver a intentarlo.',
+]
+
+export const KITTY_DAILY_MESSAGES = [
+  'Hoy el cielo de Kitty tiene una estrella extra por ti.',
+  'Respira hondo: estás haciendo lo que puedes, y eso basta.',
+  'Un té, una manta y tú: combo ganador.',
+  'Los días difíciles no definen quién eres.',
+  'Kitty te manda un guiño desde la ventana. 💜',
+  'Eres digna de cosas bonitas, incluso en silencio.',
+]
